@@ -1,0 +1,48 @@
+# Gradle
+.gradle
+build
+!gradle-wrapper.jar
+
+# Idea
+*.iml
+*.ipr
+*.iws
+.idea
+target
+project/target
+
+# Docker
+/data/
+
+# Built application files
+/*/build/
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Gradle generated files
+.gradle/
+build/
+gradle/
+gradlew
+gradle.properties
+gradlew.bat
+
+app/libs
+app/src/test/
+app/src/androidTest/
+
+# Signing files
+.signing/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
